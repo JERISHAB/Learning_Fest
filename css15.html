@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+
+            body{
+                height: 100vh;
+                width: 100%;
+                background-image: url(banner.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            .main{
+                background-color:#ffff;
+                width: 450px;
+                height: 700px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            .center{
+                /* background-color: blueviolet; */
+                height: 70px;
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+            input[type=text], select {
+                width: 400px;
+                padding: 13px 11px;
+                border: 1px solid #F1F1F1;
+                border-radius: 20px;
+                box-sizing: border-box;
+                background-color: #F1F1F1;
+            }
+
+            input[type=date], select {
+                width: 400px;
+                padding: 13px 11px;
+                border: 1px solid #F1F1F1;
+                border-radius: 20px;
+                box-sizing: border-box;
+                background-color: #F1F1F1;
+            }
+
+            .register{
+                margin-top: 30px;
+                padding: 10px 175px;
+                background-color: #373B3E;
+                color: #F1F1F1;
+            }
+
+            .line{
+                width: 400px;
+                height: 2px;
+                background-color: #edecec;
+                border-radius: 10px;
+            }
+
+            .top{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 10px;
+            }
+
+
+            h1{
+                margin-bottom: 25px;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <h1>Sign Up</h1>
+            <div class="line"></div>
+        </div>
+        <div class="center">
+            <h3>First Name</h3>
+            <input type="text" placeholder="Enter first name">
+        </div>
+        <div class="center">
+            <h3>Last Name</h3>
+            <input type="text" placeholder="Enter last name">
+        </div>
+        <div class="center">
+            <h3>First Name</h3>
+            <input type="date" placeholder="">
+        </div>
+        <div class="center">
+            <h3>Email</h3>
+            <input type="text" placeholder="Enter Email">
+        </div>
+        <div class="center">
+            <h3>Password</h3>
+            <input type="text" placeholder="Enter Password">
+        </div>
+        <div class="center">
+            <h3>Conform Password</h3>
+            <input type="text" placeholder="Repeat Password">
+        </div>  
+        <div class="top">
+            <div class="line"></div>
+            <button class="register">Register</button>
+        </div>  
+    </div>
+</body>
+</html>

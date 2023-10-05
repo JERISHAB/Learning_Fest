@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 600px;
+            height: 300px;
+            flex-direction: column;
+        }
+
+        p{
+            margin-left: 20px;
+        }
+        .col{
+            width: 500px;
+            height:50px ;
+            border-style: solid;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding:0px 20px ;
+        }
+
+        .circle{
+           height:20px ;  
+           width: 20px;
+           border-radius: 50px;
+           border-style: solid;
+           border-width: 2px;
+           background-color: rgb(217, 217, 228);
+        }
+
+        .line1{
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="line1">
+            <div class="col">
+                <div class="circle"></div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+            </div>
+        </div>  
+        <div class="line1"> 
+            <div class="col">
+                <div class="circle"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+            </div>
+        </div>     
+        <div class="line1">   
+            <div class="col">
+                <div class="circle"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+            </div>
+        </div>       
+        <div class="line1">     
+            <div class="col">
+                <div class="circle"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+            </div>
+        </div>       
+    </div>
+</body>
+</html>
